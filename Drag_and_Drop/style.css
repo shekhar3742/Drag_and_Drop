@@ -1,0 +1,71 @@
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #ece4e4;
+   height: 100vh;
+   width: 100%;
+
+}
+.imgbox{
+    background-image: url(puppy.jpg);
+    position: relative;
+    border-radius: 5px;
+    top: 7px;
+    left: 7px;
+   
+    height: 195px;
+    width: 91%;
+    cursor: pointer;
+
+
+}
+.outer-div{
+    border: 5px solid pink;
+    padding: 4rem 4rem;
+    border-radius: 3rem;
+}
+
+
+.whitebox{
+    display: inline-block;
+   border-radius: 5px;
+    height: 210px;
+    width: 155px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 3px black solid ;
+}
+.hold{
+    border: solid red 4px;
+}
+.dashed{
+    background : rgb(214, 206, 206) ;
+    border-style: none;
+}
+
+.hide{
+    display: none;
+}
+#reset-button{
+    margin: auto;
+    display: block;
+    padding: 0.8rem 1rem;
+    background-color: rgb(72, 102, 125);
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: 3ms;
+    border: none;
+    outline: none;
+
+    
+}
+#reset-button:hover{
+   color: #fff;
+   background-color:  rgb(92, 116, 135);
+    cursor: pointer;
+}
+.demo-p{
+    /* display: none; */
+    color: black;
+}
